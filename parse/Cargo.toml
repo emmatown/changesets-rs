@@ -1,0 +1,13 @@
+[package]
+name = "changesets_parse"
+version = "0.1.0"
+authors = ["mitchellhamilton <mitchell@hamil.town>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yaml-rust = "0.4"
+eyre = "0.6.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.8"
